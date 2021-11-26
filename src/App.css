@@ -1,0 +1,8 @@
+.App {
+  box-sizing: border-box;
+  height: 1000px;
+  overflow: auto;
+}
+.input::placeholder {
+  color: gray;
+}
