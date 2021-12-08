@@ -1,0 +1,22 @@
+#AlignVerticalBottomOutlined,
+#ArticleOutlined,
+#DonutSmallOutlined,
+#DateRangeOutlined,
+#Brightness5Outlined {
+  @apply target:wd-bg-gradient-to-t target:wd-bg-blue-500 target:wd-from-blue-400 target:wd-shadow-xl !wd-shadow-blue-400;
+  @apply hover:wd-border-1 hover:wd-border-solid hover:wd-border-blue-400 hover:wd-shadow-xl;
+}
+#AlignVerticalBottomOutlined,
+#ArticleOutlined,
+#DonutSmallOutlined,
+#DateRangeOutlined,
+#Brightness5Outlined {
+  &:target {
+    .a {
+      @apply wd-bg-light-50;
+      .b {
+        @apply wd-text-blue-400;
+      }
+    }
+  }
+}

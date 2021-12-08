@@ -1,0 +1,7 @@
+.divider::after {
+  content: '';
+  @apply wd-w-1px wd-h-2/5  wd-bg-gray-300;
+}
+.divider:last-child:after {
+  width: 0;
+}

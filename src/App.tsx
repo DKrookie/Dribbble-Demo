@@ -1,10 +1,10 @@
 import './App.css';
+import Demo1 from '@/pages/Demo1';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="wd-p-5 wd-text-20">Hello, Vite</h1>
-      <input type="text" placeholder="haha" />
+    <div className="App wd-h-screen wd-min-w-screen-2xl">
+      <Demo1 />
     </div>
   );
 }
